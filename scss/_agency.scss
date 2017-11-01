@@ -736,3 +736,10 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: $theme-primary;
 }
+
+.img-1024 {
+    width: 20%; 
+    border-radius: 1em; 
+    border: 2px solid white;
+    box-shadow: 0px 10px 6px -6px black;
+}
