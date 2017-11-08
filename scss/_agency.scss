@@ -17,12 +17,14 @@ body {
 }
 
 p {
-    font-size: 14px;
+    //font-size: 14px;
+    font-size: 0.9em;
     line-height: 1.75;
 }
 
 p.large {
-    font-size: 16px;
+    //font-size: 16px;
+    font-size: 1em;
 }
 
 a,
@@ -74,8 +76,10 @@ h1, h2, h3, h4, h5, h6 {
     @include heading-font;
     font-weight: 700;
     border-radius: 3px;
-    font-size: 18px;
-    padding: 20px 40px;
+    //font-size: 18px;
+    //padding: 20px 40px;
+    font-size: 1.1em;
+    padding: 1.2em 2.5em;
 }
 
 // Custom Navigation Bar
@@ -101,7 +105,8 @@ h1, h2, h3, h4, h5, h6 {
         border-color: $theme-primary;
         @include heading-font;
         color: white;
-        font-size: 12px;
+        //font-size: 12px;
+        font-size: 0.8em;
         &:hover,
         &:focus {
             background-color: $theme-primary;
@@ -180,16 +185,26 @@ header {
         .intro-lead-in {
             @include serif-font;
             font-style: italic;
-            font-size: 22px;
+            //font-size: 22px;
+            font-size: 1.4em;
             line-height: 22px;
             margin-bottom: 25px;
         }
         .intro-heading {
             @include heading-font;
             font-weight: 700;
-            font-size: 50px;
+            //font-size: 50px;
+            font-size: 2.75em;
             line-height: 50px;
-            margin-bottom: 25px;
+            margin-bottom: 2em;
+
+            .intro-heading--traduccion{
+                line-height: 0em;
+                font-size: 0.75em; 
+                display:block; 
+                text-transform: none; 
+                font-weight:normal
+            }
         }
     }
 }
@@ -197,21 +212,34 @@ header {
 @media(min-width:768px) {
     header {
         .intro-text {
-            padding-top: 300px;
-            padding-bottom: 200px;
+            padding-top: 15em;
+            padding-bottom: 6em;
             .intro-lead-in {
                 @include serif-font;
                 font-style: italic;
-                font-size: 40px;
-                line-height: 40px;
+                //font-size: 40px;
+                //line-height: 40px;
+                font-size: 2.5em;
+                //line-height: 2.5em;
                 margin-bottom: 25px;
             }
             .intro-heading {
                 @include heading-font;
                 font-weight: 700;
-                font-size: 75px;
-                line-height: 75px;
-                margin-bottom: 50px;
+                //font-size: 75px;
+                //line-height: 75px;
+                //margin-bottom: 50px;
+                font-size: 4em;
+                //line-height: 4em;
+                margin-bottom: 2em;
+
+                .intro-heading--traduccion{
+                    line-height: 0em;
+                    font-size: 0.75em; 
+                    display:block; 
+                    text-transform: none; 
+                    font-weight:normal
+                }
             }
         }
     }
@@ -220,32 +248,38 @@ header {
 // Global Section Styles
 
 section {
-    padding: 100px 0;
+    padding: 6em 0;
     h2.section-heading {
-        font-size: 40px;
+        //font-size: 40px;
+        font-size: 2.5em;
         margin-top: 0;
-        margin-bottom: 15px;
+        //margin-bottom: 15px;
+        margin-bottom: 1em;
     }
     h3.section-subheading {
-        font-size: 16px;
+        //font-size: 16px;
+        font-size: 1em;
         @include serif-font;
         text-transform: none;
         font-style: italic;
         font-weight: 400;
-        margin-bottom: 75px;
+        //margin-bottom: 75px;
+        margin-bottom: 4em;
     }
 }
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        //padding: 150px 0;
+        padding: 6em 0;
     }
 }
 
 // Services Section
 
 .service-heading {
-    margin: 15px 0;
+    //margin: 15px 0;
+    margin: 1em 0;
     text-transform: none;
 }
 
@@ -253,7 +287,8 @@ section {
 
 #portfolio {
     .portfolio-item {
-        margin: 0 0 15px;
+        //margin: 0 0 15px;
+        margin: 0 0 1em;
         right: 0;
         .portfolio-link {
             display: block;
@@ -275,14 +310,18 @@ section {
                 .portfolio-hover-content {
                     position: absolute;
                     width: 100%;
-                    height: 20px;
-                    font-size: 20px;
+                    //height: 20px;
+                    height: 1.2em;
+                    //font-size: 20px;
+                    font-size: 1.2em;
                     text-align: center;
                     top: 50%;
-                    margin-top: -12px;
+                    //margin-top: -12px;
+                    margin-top: -0.8em;
                     color: white;
                     i {
-                        margin-top: -12px;
+                        //margin-top: -12px;
+                        margin-top: -0.8em;
                     }
                     h3,
                     h4 {
@@ -304,7 +343,8 @@ section {
             p {
                 @include serif-font;
                 font-style: italic;
-                font-size: 16px;
+                //font-size: 16px;
+                font-size: 1em;
                 margin: 0;
             }
         }
@@ -335,7 +375,8 @@ section {
         content: "";
         width: 2px;
         background-color: #f1f1f1;
-        left: 40px;
+        //left: 40px;
+        left: 2.5em;
         margin-left: -1.5px;
     }
     > li {
@@ -353,13 +394,16 @@ section {
         .timeline-panel {
             width: 100%;
             float: right;
-            padding: 0 20px 0 100px;
+            //padding: 0 20px 0 100px;
+            padding: 0 1.2em 0 100px;
             position: relative;
             text-align: left;
             &:before {
                 border-left-width: 0;
-                border-right-width: 15px;
-                left: -15px;
+                //border-right-width: 15px;
+                //left: -15px;
+                border-right-width: 1em;
+                left: -1em;
                 right: auto;
             }
             &:after {
@@ -382,19 +426,24 @@ section {
             border: 7px solid #f1f1f1;
             text-align: center;
             h4 {
-                font-size: 10px;
-                margin-top: 12px;
+                //font-size: 10px;
+                //margin-top: 12px;
+                font-size: 0.6em;
+                margin-top: 0.8em;
                 line-height: 14px;
             }
         }
         &.timeline-inverted > .timeline-panel {
             float: right;
             text-align: left;
-            padding: 0 20px 0 100px;
+            //padding: 0 20px 0 100px;
+            padding: 0 1.2em 0 100px;
             &:before {
                 border-left-width: 0;
-                border-right-width: 15px;
-                left: -15px;
+                //border-right-width: 15px;
+                //left: -15px;
+                border-right-width: 1em;
+                left: -1em;
                 right: auto;
             }
             &:after {
@@ -436,7 +485,8 @@ section {
             .timeline-panel {
                 width: 41%;
                 float: left;
-                padding: 0 20px 20px 30px;
+                //padding: 0 20px 20px 30px;
+                padding: 0 1.2em 1.2em 30px;
                 text-align: right;
             }
             .timeline-image {
@@ -453,7 +503,8 @@ section {
             &.timeline-inverted > .timeline-panel {
                 float: right;
                 text-align: left;
-                padding: 0 30px 20px 20px;
+                //padding: 0 30px 20px 20px;
+                padding: 0 30px 1.2em 1.2em;
             }
         }
     }
@@ -464,20 +515,23 @@ section {
         > li {
             min-height: 150px;
             .timeline-panel {
-                padding: 0 20px 20px;
+                //padding: 0 20px 20px;
+                padding: 0 1.2em 1.2em;
             }
             .timeline-image {
                 width: 150px;
                 height: 150px;
                 margin-left: -75px;
                 h4 {
-                    font-size: 18px;
+                    //font-size: 18px;
+                    font-size: 1.1em;
                     margin-top: 30px;
                     line-height: 26px;
                 }
             }
             &.timeline-inverted > .timeline-panel {
-                padding: 0 20px 20px;
+                //padding: 0 20px 20px;
+                padding: 0 1.2em 1.2em;
             }
         }
     }
@@ -488,18 +542,21 @@ section {
         > li {
             min-height: 170px;
             .timeline-panel {
-                padding: 0 20px 20px 100px;
+                //padding: 0 20px 20px 100px;
+                padding: 0 1.2em 1.2em 100px;
             }
             .timeline-image {
                 width: 170px;
                 height: 170px;
                 margin-left: -85px;
                 h4 {
-                    margin-top: 40px;
+                    //margin-top: 40px;
+                    margin-top: 2.5em;
                 }
             }
             &.timeline-inverted > .timeline-panel {
-                padding: 0 100px 20px 20px;
+                //padding: 0 100px 20px 20px;
+                padding: 0 100px 1.2em 1.2em;
             }
         }
     }
@@ -546,7 +603,8 @@ section#contact {
         margin-bottom: 25px;
         input,
         textarea {
-            padding: 20px;
+            //padding: 20px;
+            padding: 1.2em;
         }
         input.form-control {
             height: auto;
@@ -590,13 +648,15 @@ footer {
     padding: 25px 0;
     text-align: center;
     span.copyright {
-        line-height: 40px;
+        //line-height: 40px;
+        line-height: 2.5em;
         @include heading-font;
         text-transform: none;
     }
     ul.quicklinks {
         margin-bottom: 0;
-        line-height: 40px;
+        //line-height: 40px;
+        line-height: 2.5em;
         @include heading-font;
         text-transform: none;
     }
@@ -610,11 +670,15 @@ ul.social-buttons {
         a {
             display: block;
             background-color: $gray-darker;
-            height: 40px;
-            width: 40px;
+            height: 2.5em;
+            width: 2.5em;
             border-radius: 100%;
-            font-size: 20px;
-            line-height: 40px;
+            //height: 40px;
+            //width: 40px;
+            //font-size: 20px
+            //line-height: 40px;
+            font-size: 1.2em;
+            line-height: 2.5em;
             color: white;
             outline: none;
             -webkit-transition: all 0.3s;
@@ -659,10 +723,12 @@ ul.social-buttons {
             margin-bottom: 30px;
         }
         p.item-intro {
-            margin: 20px 0 30px;
+            margin: 1.2em 0 30px;
+            //margin: 20px 0 30px;
             @include serif-font;
             font-style: italic;
-            font-size: 16px;
+            //font-size: 16px;
+            font-size: 1em;
         }
         ul.list-inline {
             margin-bottom: 30px;
