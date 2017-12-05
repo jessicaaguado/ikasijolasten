@@ -251,7 +251,7 @@ header {
         font-weight: normal; } }
 
 section {
-  padding: 10em 0; }
+  padding: 6em 0; }
   section h2.section-heading {
     font-size: 2.5em;
     margin-top: 0;
@@ -266,7 +266,7 @@ section {
 
 @media (min-width: 768px) {
   section {
-    padding: 8em 0; } }
+    padding: 6em 0; } }
 
 .service-heading {
   margin: 1em 0;
