@@ -1,44 +1,22 @@
-- tier_name: Platinum Sponsors
+- tier_name: Nosotros
   size: large
   description: |-
-    This is the description for the Platinum Tier.
-
-    It can contain multiple lines. It has the size set to 'large'.
+    Nos gustan la educación y el mundo tecnológico ¿Por qué no unir ambos?
   sponsors:
-    - name: Dave McDave
-      profile: https://github.com/
-    - name: Sarah Lee-Cheesecake
-      profile: https://github.com/
-- tier_name: Gold Sponsors
-  description: |-
-    This is the description for the Gold Tier
+    - name: Jessica Aguado
+      bio: Desarrolladora
+      twitter: https://twitter.com/jessi_aguado
+      linkedin: https://www.linkedin.com/in/jessica-aguado-santiago/
+- tier_name: Colaboradores
   sponsors:
-    - name: Dave McDave
-      profile: https://github.com/
-    - name: Sarah Lee-Cheesecake
-      profile: https://github.com/
-    - name: John Smith
-      profile: https://github.com/
-- tier_name: Standard Sponsors
+    - name: Amaia Aguado
+      url: https://github.com/
+    - name: Xabier Raposo
+      url: https://github.com/
+- tier_name: Probadores oficiales
   size: small
   description: |-
-    This is the description for the Standard Tier.
-
-    It has the size set to 'small'.
-
-    The profile is not required so if it's not set the link will not appear.
+    Los que ponen a prueba las aplicaciones
   sponsors:
-    - name: Dave McDave
-      profile: https://github.com/
-    - name: Sarah Lee-Cheesecake
-      profile: https://github.com/
-    - name: John Smith
-      profile: https://github.com/
-    - name: Jane Smith
-      profile: https://github.com
-    - name: John Doe
-      profile: https://github.com/
-    - name: Jane Doe
-      profile: https://github.com/
-    - name: John Jones
-    - name: Jane Jones
+    - name: Oier
+    - name: Naroa

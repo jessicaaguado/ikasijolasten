@@ -1,9 +1,12 @@
 ---
-title: Bulma Clean Theme
-subtitle: This is the demo site for Bulma Clean Theme
+title: Ikasi Jolasten
+subtitle: Aprender Jugando
+description: Porque jugar puede ser un bonito juego
 layout: page
 callouts: home_callouts
-show_sidebar: true
+sponsors: example_sponsors
+show_sidebar: false
+#show_sidebar: true cuando haya blog lo descomentaremos
 ---
 
 # Bulma Clean Theme demo website

@@ -1,14 +1,14 @@
 # Site Settings
-title: Bulma Clean Theme
-tagline: Bulma Clean Theme
-email: your-email@domain.com
+title: Ikasi Jolasten - Aprender Jugando
+tagline: Ikasi Jolasten - Aprender Jugando
+email: kaixo.ikasijolasten@gmail.com
 description: >
-  The demo site for Bulma Clean Theme, made for Jekyll and GitHub pages websites
+  Porque jugar puede ser un bonito juego
 baseurl: ""
-url: "https://www.csrhymes.com"
+url: ""
 permalink: pretty
 #favicon: /path/to/favicon.png
-gh_sponsor: chrisrhymes
+#gh_sponsor: chrisrhymes
 #hide_share_buttons: true
 #theme_color: '#eeeeee'
 #fixed_navbar: top
@@ -17,11 +17,11 @@ paginate: 5
 paginate_path: "/blog/page:num"
 
 # Disqus Comments
-disqus:
+#disqus:
   # Leave shortname blank to disable comments site-wide.
   # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
   # shortname: my_disqus_shortname
-  shortname: csrhymes
+  #shortname: csrhymes
 
 
 plugins:
@@ -72,7 +72,7 @@ highlighter: rouge
 footer_menu: example_footer_menu
 
 collections:
-  products: 
+  aplicaciones: 
     output: true
     layout: product
     image: https://via.placeholder.com/800x600

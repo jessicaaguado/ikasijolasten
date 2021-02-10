@@ -22,9 +22,24 @@
                         <p class="title {% if tier.size == 'large' %} is-4 {% elsif tier.size == 'small' %} is-6 {% else %} is-5 {% endif %}">
                             {{ sponsor.name }}
                         </p>
+                        {% if sponsor.bio %}
+                        <p class="subtitle {% if tier.size == 'large' %} is-4 {% elsif tier.size == 'small' %} is-6 {% else %} is-5 {% endif %}">
+                            {{ sponsor.bio }}
+                        </p>
+                        {% endif %}
                         <p class="subtitle is-6">
-                            {% if sponsor.profile %}
-                            <a href="{{ sponsor.profile }}" class="is-link is-small">View Profile</a>
+                            {% if sponsor.twitter %}
+                            <a href="{{ sponsor.twitter }}" class="is-link is-small">View Profile</a>
+                            {% else %}
+                            &nbsp;
+                            {% endif %}
+                            {% if sponsor.linkedin %}
+                            <a href="{{ sponsor.linkedin }}" class="is-link is-small">View Profile</a>
+                            {% else %}
+                            &nbsp;
+                            {% endif %}
+                            {% if sponsor.url %}
+                            <a href="{{ sponsor.url }}" class="is-link is-small">View Profile</a>
                             {% else %}
                             &nbsp;
                             {% endif %}
