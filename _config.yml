@@ -1,6 +1,6 @@
 # Site Settings
-title: Ikasi Jolasten - Aprender Jugando
-tagline: Ikasi Jolasten - Aprender Jugando
+title: Ikasi Jolasten
+tagline: Ikasi Jolasten
 email: kaixo.ikasijolasten@gmail.com
 description: >
   Porque jugar puede ser un bonito juego
@@ -15,6 +15,7 @@ permalink: pretty
 
 paginate: 5
 paginate_path: "/blog/page:num"
+theme_color: '#333333'
 
 # Disqus Comments
 #disqus:
@@ -72,7 +73,7 @@ highlighter: rouge
 footer_menu: example_footer_menu
 
 collections:
-  aplicaciones: 
+  products: 
     output: true
     layout: product
     image: https://via.placeholder.com/800x600

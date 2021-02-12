@@ -1,20 +1,17 @@
 <footer class="footer">
     <div class="container">
         
-        {% if site.footer_menu %}
         <div class="columns is-multiline">
-            {% for item in site.data[site.footer_menu] %}
-            <div class="column has-text-centered">
+            <div class="column is-4-desktop"></div>
+            <div class="column is-4-desktop is-6-tablet is-12-mobile has-text-centered">
                 <div>
-                    <a href="{{ item.link | relative_url }}" class="link">{{ item.name }}</a>
+                    <a href="https://twitter.com/ikasijolasten" class="social-button is-small"><i class="fab fa-twitter"></i></a>
                 </div>
             </div>
-            {% endfor %}
+            <div class="column is-4-desktop is-6-tablet is-12-mobile has-text-right">
+                Copyright © Ikasi Jolasten 2021
+            </div>
         </div>
-        {% endif %}
-
-        <div class="content is-small has-text-centered">
-            <p class="">Theme built by <a href="https://www.csrhymes.com">C.S. Rhymes</a></p>
-        </div>
+        
     </div>
 </footer>

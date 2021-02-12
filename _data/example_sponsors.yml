@@ -1,22 +1,30 @@
 - tier_name: Nosotros
-  size: large
+  size: medium
   description: |-
     Nos gustan la educación y el mundo tecnológico ¿Por qué no unir ambos?
   sponsors:
     - name: Jessica Aguado
       bio: Desarrolladora
+      photo: /img/avatar_j.png
       twitter: https://twitter.com/jessi_aguado
       linkedin: https://www.linkedin.com/in/jessica-aguado-santiago/
 - tier_name: Colaboradores
+  size: small
   sponsors:
     - name: Amaia Aguado
+      bio: Profesora de infantil
+      photo: /img/avatar_a.png
       url: https://github.com/
     - name: Xabier Raposo
+      bio: Ing. Informático
+      photo: /img/avatar_x.png
       url: https://github.com/
-- tier_name: Probadores oficiales
+- tier_name: Testers
   size: small
-  description: |-
-    Los que ponen a prueba las aplicaciones
   sponsors:
-    - name: Oier
-    - name: Naroa
+    - name: Tester 1
+      bio: Peque que pone a prueba los juegos
+      photo: /img/avatar_x.png
+    - name: Tester 2
+      bio: Peque que pone a prueba los juegos
+      photo: /img/avatar_a.png

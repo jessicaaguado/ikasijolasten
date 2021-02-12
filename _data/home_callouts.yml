@@ -4,7 +4,7 @@ items:
     subtitle: Juegos para móviles android
     icon: fa-mobile-alt
     call_to_action_name: ¡Descubre más aquí!
-    call_to_action_link: /juegos/
+    call_to_action_link: /products/
   - title: Nuestro blog
     subtitle: Con ideas y recursos
     icon: fa-mail-bulk

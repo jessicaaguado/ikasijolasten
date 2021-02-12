@@ -12,7 +12,7 @@ show_sidebar: false
   {% assign sorted_products = site.products | sort:page.sort %}
 
   {% for product in sorted_products %}
-  <div class="column is-4-desktop is-6-tablet">
+  <div class="column is-3-desktop is-4-tablet">
 
     <a href="{{ product.url | relative_url }}">
 
@@ -20,15 +20,15 @@ show_sidebar: false
 
         {% if product.image %}
         <div class="card-image">
-          <figure class="image is-4by3">
+          <figure class="image &.is-square">
             <img src="{{ product.image }}" alt="{{ product.title }}" />
           </figure>
         </div>
         {% endif %}
         <div class="card-content">
 
-          <p class="title is-4">{{ product.title }}</h2>
-          <p class="subtitle is-4">{{ product.subtitle }}</p>  
+          <p class="title is-5">{{ product.title }}</h2>
+          <p class="subtitle is-6">{{ product.subtitle }}</p>  
           <p class="title is-5 has-text-right">{{ product.price }}</p>
 
         </div>

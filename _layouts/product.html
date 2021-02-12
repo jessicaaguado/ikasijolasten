@@ -4,43 +4,55 @@ layout: default
 
 <div class="columns is-multiline">
 
-    <div class="column is-6">
-        <figure class="image is-4by3">
+    <div class="column is-2-desktop is-4-mobile is-4-tablet">
+        <figure class="image is-square">
             <img src="{{ page.image }}" />
         </figure>
     </div>
 
-    <div class="column is-6">
+    <div class="column is-10-desktop is-12-mobile is-12-tablet">
         <p class="title is-3">{{ page.title }}</p>
         <p class="subtitle is-3">{{ page.subtitle }}</p>
-        <p class="title is-4 has-text-right">{{ page.price }}</p>
-        {% if page.product_code %}
-        <p class="subtitle is-5 has-text-right">{{ page.product_code }}</p>
-        {% endif %}
-        
-        {% if page.rating %}
-            {% include rating.html rating=page.rating %}
-        {% endif %}
-        
         {% if page.features %}
-        <div class="content">
+        <div class="content columns">
             {% for feature in page.features %}
-            <p>
+            <div class="column is-3-desktop is-6-mobile is-6-tablet">
                 <span class="icon">
                     {% if feature.icon %}
-                    <i class="fas {{ feature.icon }}"></i>
+                    <i class="{{ feature.icon }}"></i>
                     {% else %}
                     <i class="fas fa-circle fa-xs"></i>
                     {% endif %}
                 </span> 
-                <span>{{ feature.label }}</span></p>
+                <span>{{ feature.label }}</span>
+            </div>
             {% endfor %}
+            
         </div>
         {% endif %}
+        <div class="columns">
+            
+            {% if page.googleplay %}
+            <div class=" column is-2-desktop is-8-mobile is-8-tablet" style="padding:0">
+                <a href="{{page.googleplay.url}}"><img class="img-responsive img-centered" style="max-width: 100%" alt="Google Play" src="{{page.googleplay.img}}"></a>
+            </div>
+            {% endif %}
+            
+            <div class="column is-5-dektop">
+                <p class="title is-3 has-text-right">{{ page.price }}</p>
+            </div>
+        </div>
+        
+       
+        {% if page.rating %}
+            {% include rating.html rating=page.rating %}
+        {% endif %}
+        
+        
     </div>
 
     <div class="column is-12">
-        <p class="title is-4">Description</p>
+        
         <div class="content">
             
     
