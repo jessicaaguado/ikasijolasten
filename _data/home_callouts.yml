@@ -6,7 +6,7 @@ items:
     call_to_action_name: ¡Descubre más aquí!
     call_to_action_link: /products/
   - title: Nuestro blog
-    subtitle: Con ideas y recursos
+    subtitle: Con ideas y recursos... 
     icon: fa-mail-bulk
-    call_to_action_name: ¡Descubre más aquí!
-    call_to_action_link: /blog/
+    call_to_action_name: ¡En breve!
+    call_to_action_link: /

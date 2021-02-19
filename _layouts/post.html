@@ -3,10 +3,11 @@ layout: default
 ---
 
 <div class="content">
-
-    <p>Published: {{ page.date | date: "%b %-d, %Y" }} by {{ page.author }}</p>
-
     {{ content }}
+</div>
+
+<div class="published-date">
+  <i>{{ page.date | date: "%b %-d, %Y" }}</i>
 </div>
 
 <div class="tags">

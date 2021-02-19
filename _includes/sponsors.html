@@ -31,6 +31,7 @@
                         </p>
                         {% endif %}
                         
+                        {% if sponsor.twitter || sponsor.linkedin %}
                         <p class="subtitle is-4">
                             {% if sponsor.twitter %}
                             <a href="{{ sponsor.twitter }}" class="social-button is-small"><i class="fab fa-twitter"></i></a>
@@ -43,6 +44,7 @@
                             &nbsp;
                             {% endif %}
                         </p>
+                        {% endif %}
                     </div>
                 </div>
                 {% endfor %}
