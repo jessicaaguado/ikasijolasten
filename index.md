@@ -1,11 +1,11 @@
 ---
-title: Ikasi Jolasten
-subtitle: Aprender Jugando
+title: index.title
+subtitle: index.subtitle
 hero_image: /img/herobg.jpg
-description: Porque jugar puede ser un bonito juego
+description: index.description
 layout: page
 callouts: home_callouts
-sponsors: example_sponsors
+sponsors: team
 show_sidebar: false
 #show_sidebar: true cuando haya blog lo descomentaremos
 ---

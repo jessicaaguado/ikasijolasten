@@ -1,10 +1,10 @@
 ---
-title: Aplicaciones
-subtitle: Nuestras aplicaciones
+title: products.title
+subtitle: products.subtitle
 layout: product-category
 show_sidebar: false
 hide_hero: true
 sort: product_code
 ---
 
-Estas son las aplicaciones que hemos desarrollado hasta el momento.
+{% tf products/content.md %}

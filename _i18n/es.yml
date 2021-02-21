@@ -1,0 +1,47 @@
+global:
+  spanish: Castellano
+  euskera: Euskera
+team:
+  nosotros: Quienes somos
+  descripcion: Nos gustan la educación y el mundo tecnológico. ¿Por qué no unir ambos?
+  jessi: Ing. Informática
+  coraboradores: Kolaboratzaileak
+  amaia: Grado en Educación Infantil
+  xabi: Ing. Informática
+  testers: Testers
+home:
+  callouts:
+    ap: Nuestras aplicaciones
+    apSubtitles: Juegos para móviles android
+    apButton: ¡Descubre más aquí!
+    blog:  Nuestro blog
+    blogSubtitles: Con ideas y recursos... 
+    blogButton: ¡En breve!
+index:
+  title: Ikasi Jolasten
+  subtitle: Aprender Jugando
+  description: Porque aprender puede ser un bonito juego
+products:
+  title: Juegos
+  subtitle: Nuestros juegos
+product1:
+  title: IKMat x
+  subtitle: El juego para practicar las multiplicaciones.
+  description: Juego para practicar multiplicaciones. Está especialmente pensado para alumnos de Educación Primaria que están aprendiendo a multiplicar
+  price: ¡Gratis!
+  googlePlay: https://play.google.com/store/apps/details?id=com.ikasijolasten.ikmat.ikmatmult&amp;hl=es
+  gpButton: https://play.google.com/intl/en_us/badges/images/generic/es_badge_web_generic.png
+  pp:
+    title: POLÍTICA DE PRIVACIDAD DE IKMAT x
+    description: Le rogamos lea detenidamente la presente política de privacidad. Es de aplicación a la aplicación IKMat x, el juego para practicar multiplicaciones.
+product2:
+  title: IKMat ÷
+  subtitle: El juego para practicar las divisiones.
+  description: Juego para practicar divisiones. Está especialmente pensado para alumnos de Educación Primaria que están aprendiendo a dividir
+  price: ¡Gratis!
+  pp:
+    title: POLÍTICA DE PRIVACIDAD DE IKMAT ÷
+    description: Le rogamos lea detenidamente la presente política de privacidad. Es de aplicación a la aplicación IKMat ÷, el juego para practicar divisiones.
+atribuciones:
+  title: ATRIBUCIONES
+  description: Algunos de los recursos utilizados pertenecen a terceros. A continuación se muestra cada uno de ellos indicando de dónde se ha obtenido.

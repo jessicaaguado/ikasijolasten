@@ -11,8 +11,8 @@ layout: default
     </div>
 
     <div class="column is-10-desktop is-12-mobile is-12-tablet">
-        <p class="title is-3">{{ page.title }}</p>
-        <p class="subtitle is-3">{{ page.subtitle }}</p>
+        <p class="title is-3">{% t page.title %}</p>
+        <p class="subtitle is-3">{% t page.subtitle %}</p>
         {% if page.features %}
         <div class="content columns">
             {% for feature in page.features %}
@@ -34,12 +34,12 @@ layout: default
             
             {% if page.googleplay %}
             <div class=" column is-2-desktop is-8-mobile is-8-tablet" style="padding:0">
-                <a href="{{page.googleplay.url}}"><img class="img-responsive img-centered" style="max-width: 100%" alt="Google Play" src="{{page.googleplay.img}}"></a>
+                <a href="{% t page.googleplay.url %}"><img class="img-responsive img-centered" style="max-width: 100%" alt="Google Play" src="{% t page.googleplay.img %}"></a>
             </div>
             {% endif %}
             
             <div class="column is-5-dektop">
-                <p class="title is-3 has-text-right">{{ page.price }}</p>
+                <p class="title is-3 has-text-right">{% t page.price %}</p>
             </div>
         </div>
         

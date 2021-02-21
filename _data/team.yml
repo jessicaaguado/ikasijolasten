@@ -1,25 +1,24 @@
-- tier_name: Nosotros
+- tier_name: team.nosotros
   size: medium
-  description: |-
-    Nos gustan la educación y el mundo tecnológico ¿Por qué no unir ambos?
+  description: team.descripcion
   sponsors:
     - name: Jessica Aguado
-      bio: Desarrolladora
+      bio: team.jessi
       photo: /img/avatarj.png
       twitter: https://twitter.com/jessi_aguado
       linkedin: https://www.linkedin.com/in/jessica-aguado-santiago/
-- tier_name: Colaboradores
+- tier_name: team.colaboradores
   size: small
   sponsors:
     - name: Amaia Aguado
-      bio: Profesora de infantil
+      bio: team.amaia
       photo: /img/avatara.png
       url: https://github.com/
     - name: Xabier Raposo
-      bio: Ing. Informático
+      bio: team.xabi
       photo: /img/avatarx.png
       url: https://github.com/
-- tier_name: Testers
+- tier_name: team.testers
   size: small
   sponsors:
     - name: Tester 1

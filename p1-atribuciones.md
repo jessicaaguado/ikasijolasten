@@ -1,12 +1,12 @@
 ---
 layout: page
-title: ATRIBUCIONES
-description: Algunos de los recursos utilizados pertenecen a terceros. A continuación se muestra cada uno de ellos indicando de dónde se ha obtenido.
+title: atribuciones.title
+description: atribuciones.description
 hide_hero: true
 show_sidebar: false
 ---
 
-# ATRIBUCIONES
+# ATRIBUCIONES EU
 
 Algunos de los recursos utilizados pertenecen a terceros. A continuación se muestra cada uno de ellos indicando de dónde se ha obtenido.
 

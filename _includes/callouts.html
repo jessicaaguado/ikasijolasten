@@ -15,19 +15,28 @@
                             {% endif %}
                             </div>
                             {% endif %}
-                            <p class="title is-5">{{ callout.title }}</p>
-                            <p class="subtitle is-5">{{ callout.subtitle }}</p>
+                            <p class="title is-5">{% t callout.title %}</p>
+                            <p class="subtitle is-5">{% t callout.subtitle %}</p>
                             
                             {% if callout.description %}
                             <div class="content">
-                                <p>{{ callout.description | newline_to_br }}</p>
+                                <p>{% t callout.description | newline_to_br %}</p>
                             </div>
                             {% endif %}
 
                             {% if callout.call_to_action_name %}
-                            <a href="{{ callout.call_to_action_link | relative_url }}" class="button is-primary">
-                                {{ callout.call_to_action_name }}
-                            </a>
+                                {% if site.lang == "es" %}
+                                    {% capture link1 %}/es{{ callout.call_to_action_link}}{% endcapture %}
+                                    <a href="{{ link1 | site.baseurl }}" class="button is-primary">
+                                        {% t callout.call_to_action_name %}
+                                    </a>
+                                {% else %}
+                                    {% capture link2 %}{{ callout.call_to_action_link}}{% endcapture %}
+                                    <a href="{{ link2 | site.baseurl }}" class="button is-primary">
+                                        {% t callout.call_to_action_name %}
+                                    </a>
+                                {% endif %}
+                            
                             {% endif %}
                         </div>
                     {% endfor %}

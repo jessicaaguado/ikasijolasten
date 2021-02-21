@@ -22,6 +22,15 @@
                     {% endif %}
                 {% endfor %}
                 {% endif %}
+                {% if site.lang == "eu" %}
+                    {% capture link1 %}{{ site.baseurl_root }}/es{{ page.url}}{% endcapture %}
+                    <a href="{{ link1 }}" class="navbar-item">{% t global.spanish %}</a>
+                {% elsif site.lang == "es" %}
+                    {% capture link2 %}{{ site.baseurl_root }}{{ page.url  }}{% endcapture %}
+                    <a href="{{ link2 }}" class="navbar-item">{% t global.euskera %}</a>
+                {% endif %}
+
+
             </div>
 
             <div class="navbar-end">
