@@ -1,0 +1,49 @@
+.sponsor-title-large {
+    font-size: 25rem;
+}
+
+.sponsor-title-medium {
+    font-size: 1.75rem;
+}
+
+.sponsor-title-small {
+    font-size: 1.5rem;
+}
+
+.box {
+    padding: 0,75rem;
+}
+
+a.social-button {
+    display: inline-block;
+    background-color: #222;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 100%;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    color: #fff;
+    outline: 0;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+
+    &.is-small {
+        font-size: 0.75rem !important;
+    }
+
+    &:hover {
+        background-color: blueviolet;
+    }
+}
+
+.share-buttons-group{
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.published-date{
+    text-align: right;
+}
