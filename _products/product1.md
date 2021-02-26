@@ -15,5 +15,5 @@ googleplay:
     url: product1.googlePlay
     img: product1.gpButton
 ---
-{% tf product1/content.md %}
+{% include product1/content.md %}
 
