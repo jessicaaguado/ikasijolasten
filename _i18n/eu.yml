@@ -1,6 +1,10 @@
 global:
   spanish: Castellano
   euskera: Euskera
+  buycoffee: Lagundu nahi baduzu, kafetxo batera gonbidatu iezadakezu
+  buycoffeeBtn: Gonbidatu kafe batera
+nav:
+  juegos: Jokuak
 index:
   title: Ikasi Jolasten
   subtitle:

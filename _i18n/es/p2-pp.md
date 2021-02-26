@@ -28,7 +28,7 @@ La información únicamente se almacena en el almacenamiento interno del movil. 
 Si desea eliminar todo, es suficiente con desinstalar la aplicación de su dispositivo.
 
 ### Cambios en la presente Política De Privacidad
-A medida que IKMat ÷ continúe desarrollándose, podríamos decidir revisar la presente política de privacidad de manera ocasional. La versión más reciente estará siempre disponible en [Política de privacidad]()
+A medida que IKMat ÷ continúe desarrollándose, podríamos decidir revisar la presente política de privacidad de manera ocasional. La versión más reciente estará siempre disponible en [Política de privacidad](/es/p2-pp)
 
 ### Contacto <i class="fas fa-envelope"></i>
 Le agradecemos cualquier pregunta, cuestión o comentario que tenga sobre la presente política de privacidad. Si quiere hacernos alguna sugerencia, mándenos un correo electrónico a kaixo.ikasijolasten@gmail.com.

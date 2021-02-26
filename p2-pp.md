@@ -10,25 +10,25 @@ show_sidebar: false
         <img src="/img/google_play_imagen_1024_div.png" style="border-radius: 10px"/>
     </div>
 </div>
-## POLÍTICA DE PRIVACIDAD DE IKMAT ÷
-Le rogamos lea detenidamente la presente política de privacidad. Es de aplicación a la aplicación IKMat ÷, el juego para practicar divisiones.
+## IKMAT ×-KO PRIBATASUN POLITIKA ÷
+Adi irakurri pribatasun politika. IKMat ÷, biderketak praktikatzeko jokua-ri dagokio.
 
-### Qué información recopilamos
-Se accede al almacenamiento interno del dispositivo con el fin de guardar y almacenar los resultados de obtenidos durante las partidas por cada uno d elos participantes. No existe ningún tipo de registro adicional.
+### Biltzen dugun informazioa
+Telefonoaren almazenamenduan gordetzen dira partida bakoitzean lortutako emaitzak. Ez da ezer gehiago gordetzen.
 
-Se requiere de permisos para acceder a internet con el fin de mostrarle anuncios (cuando sea posible).
+Internetera konektatzeko baimena eskatzen da, zenbait pantailetan irakargiak erakutsi ahal izateko.
 
-### Cómo utilizamos y divulgamos su información
-No se realiza ninguna información recopilada más allá para el uso propio de la misma por parte del usuario. No se hace divulgación de información alguna.
+### Zure informazioaren erabilera eta zabalera
+Bildutako informazioa, joku berean ikusi ahal izateko besterik ez da gordetzen. Ez da daturik zabaltzen.
 
-### Política de almacenamiento web y seguimiento
-La información únicamente se almacena en el almacenamiento interno del movil. No se realiza ninguna copia de seguridad ni similares de forma externa.
+### Datuen gordetze eta jarraipen politika
+Informazioa telefonoan soil soilik gordetzen da. Ez da inongo segurtasun kopia eto antzekorik egiten telefonotik kanpo.
 
-### Supresión de datos
-Si desea eliminar todo, es suficiente con desinstalar la aplicación de su dispositivo.
+### Datuen ezabaketa
+Datu guztiak ezabatzeko, jokua desinstalatzearekin nahiko izango da.
 
-### Cambios en la presente Política De Privacidad
-A medida que IKMat ÷ continúe desarrollándose, podríamos decidir revisar la presente política de privacidad de manera ocasional. La versión más reciente estará siempre disponible en [Política de privacidad]()
+### Pribatasun Politikaren aldaketak
+IKMat ÷-n aldaketak egiten diren neurrian, politika hau berrikusten joango gara. Azkeneko bertsioa beti eskuragarri egongo da hemen: [Pribatasun politika](/p2-pp)
 
-### Contacto <i class="fas fa-envelope"></i>
-Le agradecemos cualquier pregunta, cuestión o comentario que tenga sobre la presente política de privacidad. Si quiere hacernos alguna sugerencia, mándenos un correo electrónico a kaixo.ikasijolasten@gmail.com.
+### Kontaktua <i class="fas fa-envelope"></i>
+Pribatasun politikari buruz edozein galdera edo komentario ongietorria izango da. Edozein iradokizuna egiteko, mesedez bidali email bat hurrengo helbideari kaixo.ikasijolasten@gmail.com.

@@ -6,15 +6,15 @@ hide_hero: true
 show_sidebar: false
 ---
 
-# ATRIBUCIONES
+# ATRIBUZIOAK
 
-Algunos de los recursos utilizados pertenecen a terceros. A continuación se muestra cada uno de ellos indicando de dónde se ha obtenido.
+Erabili diren zenbait baliabide beste pertsonak eginak dira. Ondoren, baliabide bakoitza erakusten da, non aurkitu daiteken azalduz.
 
-Además de las atribuciones que se muestran a continuación nos gustaría aprovechar este espacio para agradecer el tiempo, el esfuerzo y la generosidad de crear todos estos recursos y compartirlos libremente. ¡Gracias!
+Gune hau aprobetxatuko dugu baliabide guzti hauek egiteko eta konpartitzeko behar den denbora, esfortzu eta eskuzabaltasuna eskertzeko. Mila esker!
 
-#### Imágenes
+#### Irudiak
 
-**Dinosaurios**
+**Dinosaurioak**
 <div class="columns">
     <div class="column is-3-desktop">
         <a title="Cute little dinosaurs in colors"
@@ -46,7 +46,7 @@ Además de las atribuciones que se muestran a continuación nos gustaría aprove
     </div>
 </div>
 
-**Fondo**
+**Atzeko irudia**
 
 <a title="Prehistoric landscape background" 
 href="https://www.freepik.com/free-vector/prehistoric-landscape-background_956513.htm">
@@ -56,17 +56,17 @@ href="https://www.freepik.com/free-vector/prehistoric-landscape-background_95651
     <a href='https://www.freepik.com/free-vector/prehistoric-landscape-background_956513.htm'>Designed by Freepik</a>
 </p>
 
-#### Iconos
+#### Ikonoak
 <p><a href="https://iconos8.es/">App icons by Icons8</a></p>
 
-#### Audios
+#### Soinuak
 <div class="columns">
     <div class="column is-3-desktop">
-        <p><a href="http://freesound.org/people/ProjectsU012/sounds/341695/">Puntos conseguidos</a></p>
+        <p><a href="http://freesound.org/people/ProjectsU012/sounds/341695/">Lortutako puntuak</a></p>
         <iframe frameborder="0" scrolling="no" src="https://freesound.org/embed/sound/iframe/341695/simple/small/" width="375" height="30"></iframe>
     </div>
     <div class="column is-3-desktop">
-        <p><a href="http://freesound.org/people/Autistic%20Lucario/sounds/142608/">Error</a>
+        <p><a href="http://freesound.org/people/Autistic%20Lucario/sounds/142608/">Akatsa</a>
         </p>
         <iframe frameborder="0" scrolling="no" src="https://freesound.org/embed/sound/iframe/142608/simple/small/" width="375" height="30"></iframe>
     </div>
