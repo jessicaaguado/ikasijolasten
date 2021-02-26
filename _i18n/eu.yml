@@ -1,0 +1,51 @@
+global:
+  spanish: Castellano
+  euskera: Euskera
+  buycoffee: Lagundu nahi baduzu, kafetxo batera gonbidatu iezadakezu
+  buycoffeeBtn: Gonbidatu kafe batera
+nav:
+  juegos: Jokuak
+index:
+  title: Ikasi Jolasten
+  subtitle:
+  description: Ikastea joku polit bat izan daitekelako
+team:
+  nosotros: Nortzuk gara
+  descripcion: Hezkuntza eta teknologi munduak gustatzen zaizkigu. Zergatik ez bateratu?
+  jessi: Informatika Ingenieritza
+  coraboradores: Kolaboratzaileak
+  amaia: Haur Hezkuntza Gradua
+  xabi: Informatika Ingenieritza
+  testers: Testers
+home:
+  callouts:
+    ap: Gure aplikazioak
+    apSubtitles: Android mobilentzako jokuak
+    apButton: Ikusi gehiago hemen!
+    blog: Gure bloga
+    blogSubtitles: Ideiak eta baliabideak...
+    blogButton: Laister!
+products:
+  title: Jokuak
+  subtitle: Gure jokuak
+product1:
+  title: IKMat x
+  subtitle: Biderketak praktikatzeko jokua.
+  description: Biderketak praktikatzeko jokua da. Gehienbat Lehen Hezkuntzako ikasleentzat pentsatuta dago, biderketak ikasten ari direnentzat, zehazki.
+  price: Doain!
+  googlePlay: https://play.google.com/store/apps/details?id=com.ikasijolasten.ikmat.ikmatmult&amp;hl=eu
+  gpButton: https://play.google.com/intl/en_us/badges/images/generic/eu_badge_web_generic.png
+  pp:
+      title: IKMAT x PRIBATASUN POLITIKA
+      description: Adi irakurri pribatasun politika. IKMat x, biderketak praktikatzeko jokua-ri dagokio.
+product2:
+  title: IKMAT ÷
+  subtitle: Zatiketak praktikatzeko jokua.
+  description: Zatiketak praktikatzeko jokua da. Gehienbat Lehen Hezkuntzako ikasleentzako pentsatuta dago, zatiketak ikasten ari direnentzat, zehazki.
+  price: Doain!
+  pp:
+    title: IKMAT ÷ PRIBATASUN POLITIKA
+    description: Adi irakurri pribatasun politika. IkMat ÷, zatiketak praktikatzeko jokua-ri dagokio.
+atribuciones:
+  title: ATRIBUZIOAK
+  description: Erabili diren zenbait baliabide beste pertsonak eginak dira. Ondoren, baliabide bakoitza erakusten da, non aurkitu daiteken azalduz.

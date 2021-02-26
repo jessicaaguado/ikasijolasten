@@ -1,0 +1,27 @@
+- tier_name: team.nosotros
+  size: medium
+  description: team.descripcion
+  sponsors:
+    - name: Jessica Aguado
+      bio: team.jessi
+      photo: /img/avatarj.png
+      twitter: https://twitter.com/jessi_aguado
+      linkedin: https://www.linkedin.com/in/jessica-aguado-santiago/
+- tier_name: team.colaboradores
+  size: small
+  sponsors:
+    - name: Amaia Aguado
+      bio: team.amaia
+      photo: /img/avatara.png
+      url: https://github.com/
+    - name: Xabier Raposo
+      bio: team.xabi
+      photo: /img/avatarx.png
+      url: https://github.com/
+- tier_name: team.testers
+  size: small
+  sponsors:
+    - name: Tester 1
+      photo: /img/avatar_1b.png
+    - name: Tester 2
+      photo: /img/avatar_2b.png

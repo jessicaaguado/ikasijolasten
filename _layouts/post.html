@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="content">
+    {{ content }}
+</div>
+
+<div class="published-date">
+  <i>{{ page.date | date: "%b %-d, %Y" }}</i>
+</div>
+
+<div class="tags">
+    {% for tag in page.tags %}
+      {% include tag.html tag=tag %}
+    {% endfor %}
+</div>
+
+{% unless site.hide_share_buttons %}
+{% include share-buttons.html %}
+{% endunless %}
+
+{% if site.disqus.shortname %}
+  {% include disqus.html %}
+{% endif %}

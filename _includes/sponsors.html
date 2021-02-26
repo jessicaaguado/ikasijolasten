@@ -1,0 +1,59 @@
+{% if page.sponsors %}
+{% assign tiers=site.data.[page.sponsors] %}
+    <div class="columns is-multiline">
+        {% for tier in tiers %}
+        <div class="column is-12">
+            <p class="title has-text-centered {% if tier.size == 'large' %} sponsor-title-large {% elsif tier.size == 'small' %} sponsor-title-small {% else %} sponsor-title-medium {% endif %}">
+                <span>{% t tier.tier_name %}</span>
+            </p>
+            <div class="columns is-centered">
+                <div class="column is-6 content has-text-centered">
+                    {% capture xx %}{% t tier.description %}{% endcapture %}
+                    <p>{{ xx | markdownify }}</p>
+                </div>
+            </div>
+
+            <div class="columns is-multiline is-centered">
+                {% for sponsor in tier.sponsors %}
+                <div class="column {% if tier.size == 'large' %} is-4-desktop is-6-tablet {% else %} is-3-desktop is-4-tablet {% endif %}">
+                    <div class="box has-text-centered">
+                        
+                        {% if sponsor.photo %}
+                        <p class="photo {% if tier.size == 'large' %} is-3 {% elsif tier.size == 'small' %} is-2 {% else %} is-1 {% endif %}">
+                            <img src="{{ sponsor.photo }}" alt=" {{ sponsor.name }}" width="50%"/>
+                        </p>
+                        {% endif %}
+                        <p class="title {% if tier.size == 'large' %} is-5 {% elsif tier.size == 'small' %} is-6 {% else %} is-5 {% endif %}">
+                            {{ sponsor.name }}
+                        </p>
+                        {% if sponsor.bio %}
+                        <p class="subtitle {% if tier.size == 'large' %} is-5 {% elsif tier.size == 'small' %} is-6 {% else %} is-5 {% endif %}">
+                            {% t sponsor.bio %}
+                        </p>
+                        {% endif %}
+                        
+                        {% if sponsor.twitter || sponsor.linkedin %}
+                        <p class="subtitle is-4">
+                            {% if sponsor.twitter %}
+                            <a href="{{ sponsor.twitter }}" class="social-button is-small"><i class="fab fa-twitter"></i></a>
+                            {% else %}
+                            &nbsp;
+                            {% endif %}
+                            {% if sponsor.linkedin %}
+                            <a href="{{ sponsor.linkedin }}" class="social-button is-small"><i class="fab fa-linkedin-in"></i></a>
+                            {% else %}
+                            &nbsp;
+                            {% endif %}
+                        </p>
+                        {% endif %}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="column is-12" style="padding: 0">
+            <hr />
+        </div>
+        {% endfor %}
+    </div>
+{% endif %}
