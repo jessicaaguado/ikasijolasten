@@ -4,7 +4,7 @@ tagline: Ikasi Jolasten
 email: kaixo.ikasijolasten@gmail.com
 description: >
   Porque jugar puede ser un bonito juego
-baseurl: "ikasijolasten/"
+baseurl: "/ikasijolasten"
 url: ""
 permalink: pretty
 #favicon: /path/to/favicon.png
