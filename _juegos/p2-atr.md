@@ -1,9 +1,11 @@
 ---
 layout: page
-title: atribuciones.title
-description: atribuciones.description
+title: ATRIBUCIONES
+description: Algunos de los recursos utilizados pertenecen a terceros. A continuación se muestra cada uno de ellos indicando de dónde se ha obtenido.
 hide_hero: true
 show_sidebar: false
+lang: "es"
+url-eu: /jokuak/p2-atr
 ---
 
 # ATRIBUCIONES
