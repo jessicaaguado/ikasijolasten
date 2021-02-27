@@ -1,7 +1,7 @@
 ---
 title: Ikasi Jolasten
 subtitle: Aprender Jugando
-hero_image: /img/herobg.jpg
+hero_image: img/herobg.jpg
 description: Porque aprender puede ser un bonito juego
 layout: page
 callouts: callouts_es
