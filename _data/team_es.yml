@@ -4,7 +4,7 @@
   sponsors:
     - name: Jessica Aguado
       bio:  Ing. Informática
-      photo: /img/avatarj.png
+      photo: img/avatarj.png
       twitter: https://twitter.com/jessi_aguado
       linkedin: https://www.linkedin.com/in/jessica-aguado-santiago/
 - tier_name: Colaboradores
@@ -12,16 +12,16 @@
   sponsors:
     - name: Amaia Aguado
       bio: Grado en Educación Infantil
-      photo: /img/avatara.png
+      photo: img/avatara.png
       url: https://github.com/
     - name: Xabier Raposo
       bio: Ing. Informática
-      photo: /img/avatarx.png
+      photo: img/avatarx.png
       url: https://github.com/
 - tier_name: Testers
   size: small
   sponsors:
     - name: Tester 1
-      photo: /img/avatar_1b.png
+      photo: img/avatar_1b.png
     - name: Tester 2
-      photo: /img/avatar_2b.png
+      photo: img/avatar_2b.png
