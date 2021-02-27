@@ -1,0 +1,12 @@
+style: is-light
+items:
+  - title: Nuestras aplicaciones
+    subtitle: Juegos para móviles android
+    icon: fa-mobile-alt
+    call_to_action_name: ¡Descubre más aquí!
+    call_to_action_link: /juegos/
+  - title:  Nuestro blog
+    subtitle: Con ideas y recursos... 
+    icon: fa-mail-bulk
+    call_to_action_name: ¡En breve!
+    call_to_action_link: /

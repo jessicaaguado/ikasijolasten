@@ -4,11 +4,11 @@
         {% for tier in tiers %}
         <div class="column is-12">
             <p class="title has-text-centered {% if tier.size == 'large' %} sponsor-title-large {% elsif tier.size == 'small' %} sponsor-title-small {% else %} sponsor-title-medium {% endif %}">
-                <span>{% t tier.tier_name %}</span>
+                <span>{{ tier.tier_name }}</span>
             </p>
             <div class="columns is-centered">
                 <div class="column is-6 content has-text-centered">
-                    {% capture xx %}{% t tier.description %}{% endcapture %}
+                    {% capture xx %}{{ tier.description }}{% endcapture %}
                     <p>{{ xx | markdownify }}</p>
                 </div>
             </div>
@@ -28,7 +28,7 @@
                         </p>
                         {% if sponsor.bio %}
                         <p class="subtitle {% if tier.size == 'large' %} is-5 {% elsif tier.size == 'small' %} is-6 {% else %} is-5 {% endif %}">
-                            {% t sponsor.bio %}
+                            {{ sponsor.bio }}
                         </p>
                         {% endif %}
                         

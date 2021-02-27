@@ -14,27 +14,31 @@
             <div class="navbar-end">
                 <a href="{{ site.baseurl }}/" class="navbar-item {% if page.url == "/" %}is-active{% endif %}">Home</a>
                 {% if site.data.navigation %}
-                {% for item in site.data.navigation %}
-                    {% if item.dropdown %}
-                    <div class="navbar-item has-dropdown is-hoverable {% if site.fixed_navbar == 'bottom' %} has-dropdown-up {% endif %}">
-                        <a href="{{ item.link | relative_url }}" class="navbar-link {% if item.link == page.url %}is-active{% endif %}">{% t item.name %}</a>
-                        <div class="navbar-dropdown">
-                            {% for subitem in item.dropdown %}
-                            <a href="{{ subitem.link | relative_url }}" class="navbar-item {% if subitem.link == page.url %}is-active{% endif %}">{% t subitem.name %}</a>
+                    {% for idioma in site.data.navigation.languages %} 
+                        {% if idioma.language == page.lang %} 
+                            {% for item in idioma.links %} 
+                                {% if item.dropdown %}
+                                <div class="navbar-item has-dropdown is-hoverable {% if site.fixed_navbar == 'bottom' %} has-dropdown-up {% endif %}">
+                                    <a href="{{ item.url | relative_url }}" class="navbar-link {% if item.url == page.url %}is-active{% endif %}">{{ item.name }}</a>
+                                    <div class="navbar-dropdown">
+                                        {% for subitem in item.dropdown %}
+                                        <a href="{{ subitem.url | relative_url }}" class="navbar-item {% if subitem.url == page.url %}is-active{% endif %}">{{ subitem.name }}</a>
+                                        {% endfor %}
+                                    </div>
+                                </div>
+                                {% else %}
+                                <a href="{{ item.url | relative_url }}" class="navbar-item {% if item.url == page.url %}is-active{% endif %}">{{ item.name }}</a>
+                                {% endif %}
                             {% endfor %}
-                        </div>
-                    </div>
-                    {% else %}
-                    <a href="{{ item.link | relative_url }}" class="navbar-item {% if item.link == page.url %}is-active{% endif %}">{% t item.name %}</a>
-                    {% endif %}
-                {% endfor %}
+                        {% endif %}
+                    {% endfor %}
                 {% endif %}
-                {% if site.lang == "eu" %}
-                    {% capture link1 %}{{ site.baseurl_root }}/es{{ page.url}}{% endcapture %}
-                    <a href="{{ link1 }}" class="navbar-item">{% t global.spanish %}</a>
-                {% elsif site.lang == "es" %}
-                    {% capture link2 %}{{ site.baseurl_root }}{{ page.url  }}{% endcapture %}
-                    <a href="{{ link2 }}" class="navbar-item">{% t global.euskera %}</a>
+                {% if page.lang == "eu" %}
+                    {% capture link1 %}{{ site.baseurl_root }}{{ page.url-es}}{% endcapture %}
+                    <a href="{{ link1 }}" class="navbar-item">Castellano</a>
+                {% elsif page.lang == "es" %}
+                    {% capture link2 %}{{ site.baseurl_root }}{{ page.url-eu}}{% endcapture %}
+                    <a href="{{ link2 }}" class="navbar-item">Euskera</a>
                 {% endif %}
 
 
