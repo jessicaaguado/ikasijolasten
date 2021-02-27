@@ -1,2 +1,9 @@
-- name: nav.juegos
-  link: /products/
+languages:
+- language: "es"
+  links:
+    - name: Juegos
+      url: "/juegos"
+- language: "eu"
+  links:
+    - name: Jokuak
+      url: "/jokuak"

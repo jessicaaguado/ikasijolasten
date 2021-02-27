@@ -1,21 +1,21 @@
-- tier_name: Nortzuk gara
+- tier_name: Quienes somos
   size: medium
-  description: Hezkuntza eta teknologi munduak gustatzen zaizkigu. Zergatik ez bateratu?
+  description: Nos gustan la educación y el mundo tecnológico. ¿Por qué no unir ambos?
   sponsors:
     - name: Jessica Aguado
-      bio: Informatika Ingenieritza
+      bio:  Ing. Informática
       photo: /img/avatarj.png
       twitter: https://twitter.com/jessi_aguado
       linkedin: https://www.linkedin.com/in/jessica-aguado-santiago/
-- tier_name: Kolaboratzaileak
+- tier_name: Colaboradores
   size: small
   sponsors:
     - name: Amaia Aguado
-      bio: Haur Hezkuntza Gradua
+      bio: Grado en Educación Infantil
       photo: /img/avatara.png
       url: https://github.com/
     - name: Xabier Raposo
-      bio: Informatika Ingenieritza
+      bio: Ing. Informática
       photo: /img/avatarx.png
       url: https://github.com/
 - tier_name: Testers

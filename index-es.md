@@ -1,14 +1,14 @@
 ---
 title: Ikasi Jolasten
-subtitle: 
+subtitle: Aprender Jugando
 hero_image: /img/herobg.jpg
-description: Ikastea joku polit bat izan daitekelako
+description: Porque aprender puede ser un bonito juego
 layout: page
-callouts: callouts
-sponsors: team
+callouts: callouts_es
+sponsors: team_es
 show_sidebar: false
-lang: "eu"
-url-es: "/index-es"
+lang: "es"
+url-eu: "/"
 #show_sidebar: true cuando haya blog lo descomentaremos
 ---
 

@@ -1,9 +1,11 @@
 ---
 layout: page
-title: atribuciones.title
-description: atribuciones.description
+title: ATRIBUZIOAK
+description: Erabili diren zenbait baliabide beste pertsonak eginak dira. Ondoren, baliabide bakoitza erakusten da, non aurkitu daiteken azalduz.
 hide_hero: true
 show_sidebar: false
+lang: "eu"
+url-es: /juegos/p1-atr
 ---
 
 # ATRIBUZIOAK

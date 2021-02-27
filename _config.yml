@@ -31,10 +31,9 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - kramdown-parser-gfm
-  - jekyll-multiple-languages-plugin
 
 languages: ["eu", "es"]
-exclude_from_localizations: ["javascript", "images", "css", "img"]
+lang: eu
 
 
 exclude: 
@@ -77,6 +76,16 @@ highlighter: rouge
 
 collections:
   products: 
+    output: true
+    layout: product
+    image: https://via.placeholder.com/800x600
+    show_sidebar: false
+  juegos: 
+    output: true
+    layout: product
+    image: https://via.placeholder.com/800x600
+    show_sidebar: false
+  jokuak: 
     output: true
     layout: product
     image: https://via.placeholder.com/800x600
