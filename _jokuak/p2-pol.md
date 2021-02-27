@@ -9,7 +9,7 @@ url-es: /juegos/p2-pol
 ---
 <div class="columns is-centered">
     <div class="column is-4-desktop is-6-tablet  is-8-mobile">
-        <img src="/img/google_play_imagen_1024_div.png" style="border-radius: 10px"/>
+        <img src="img/google_play_imagen_1024_div.png" style="border-radius: 10px"/>
     </div>
 </div>
 
