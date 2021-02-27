@@ -1,7 +1,7 @@
 ---
 title: Ikasi Jolasten
 subtitle: 
-hero_image: /img/herobg.jpg
+hero_image: img/herobg.jpg
 description: Ikastea joku polit bat izan daitekelako
 layout: page
 callouts: callouts
