@@ -1,0 +1,12 @@
+style: is-light
+items:
+  - title: Gure aplikazioak
+    subtitle: Android mobilentzako jokuak
+    icon: fa-mobile-alt
+    call_to_action_name: Ikusi gehiago hemen!
+    call_to_action_link: /jokuak/
+  - title: Gure bloga
+    subtitle: Ideiak eta baliabideak...
+    icon: fa-mail-bulk
+    call_to_action_name: Laister!
+    call_to_action_link: /

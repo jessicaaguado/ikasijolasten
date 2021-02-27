@@ -1,16 +1,19 @@
 ---
 layout: page
-title: product2.pp.title
-description: product2.pp.description
+title: IKMAT ÷ PRIBATASUN POLITIKA
+description: Adi irakurri pribatasun politika. IkMat ÷, zatiketak praktikatzeko jokua-ri dagokio.
 hide_hero: true
 show_sidebar: false
+lang: "eu"
+url-es: /juegos/p2-pol
 ---
 <div class="columns is-centered">
     <div class="column is-4-desktop is-6-tablet  is-8-mobile">
         <img src="/img/google_play_imagen_1024_div.png" style="border-radius: 10px"/>
     </div>
 </div>
-## IKMAT ×-KO PRIBATASUN POLITIKA ÷
+
+# IKMAT ÷-KO PRIBATASUN POLITIKA
 Adi irakurri pribatasun politika. IKMat ÷, biderketak praktikatzeko jokua-ri dagokio.
 
 ### Biltzen dugun informazioa
@@ -28,7 +31,7 @@ Informazioa telefonoan soil soilik gordetzen da. Ez da inongo segurtasun kopia e
 Datu guztiak ezabatzeko, jokua desinstalatzearekin nahiko izango da.
 
 ### Pribatasun Politikaren aldaketak
-IKMat ÷-n aldaketak egiten diren neurrian, politika hau berrikusten joango gara. Azkeneko bertsioa beti eskuragarri egongo da hemen: [Pribatasun politika](/p2-pp)
+IKMat ÷-n aldaketak egiten diren neurrian, politika hau berrikusten joango gara. Azkeneko bertsioa beti eskuragarri egongo da hemen: [Pribatasun politika](/jokuak/p2-pol)
 
 ### Kontaktua <i class="fas fa-envelope"></i>
 Pribatasun politikari buruz edozein galdera edo komentario ongietorria izango da. Edozein iradokizuna egiteko, mesedez bidali email bat hurrengo helbideari kaixo.ikasijolasten@gmail.com.
