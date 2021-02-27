@@ -34,10 +34,10 @@
                     {% endfor %}
                 {% endif %}
                 {% if page.lang == "eu" %}
-                    {% capture link1 %}{{ site.baseurl_root }}{{ page.url-es}}{% endcapture %}
+                    {% capture link1 %}{{ site.baseurl }}{{ page.url-es}}{% endcapture %}
                     <a href="{{ link1 }}" class="navbar-item">Castellano</a>
                 {% elsif page.lang == "es" %}
-                    {% capture link2 %}{{ site.baseurl_root }}{{ page.url-eu}}{% endcapture %}
+                    {% capture link2 %}{{ site.baseurl }}{{ page.url-eu}}{% endcapture %}
                     <a href="{{ link2 }}" class="navbar-item">Euskera</a>
                 {% endif %}
 
