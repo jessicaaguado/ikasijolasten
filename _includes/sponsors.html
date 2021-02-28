@@ -20,7 +20,7 @@
                         
                         {% if sponsor.photo %}
                         <p class="photo {% if tier.size == 'large' %} is-3 {% elsif tier.size == 'small' %} is-2 {% else %} is-1 {% endif %}">
-                            <img src="{{ sponsor.photo }}" alt=" {{ sponsor.name }}" width="50%"/>
+                            <img src="{{ sponsor.photo | relative_url }}" alt=" {{ sponsor.name }}" width="50%"/>
                         </p>
                         {% endif %}
                         <p class="title {% if tier.size == 'large' %} is-5 {% elsif tier.size == 'small' %} is-6 {% else %} is-5 {% endif %}">

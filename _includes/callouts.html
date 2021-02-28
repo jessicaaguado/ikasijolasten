@@ -25,17 +25,12 @@
                             {% endif %}
 
                             {% if callout.call_to_action_name %}
-                                {% if site.lang == "es" %}
-                                    {% capture link1 %}/es{{ callout.call_to_action_link}}{% endcapture %}
-                                    <a href="{{ link1 | site.baseurl }}" class="button is-primary">
-                                        {{ callout.call_to_action_name }}
-                                    </a>
-                                {% else %}
-                                    {% capture link2 %}{{ callout.call_to_action_link}}{% endcapture %}
-                                    <a href="{{ link2 | site.baseurl }}" class="button is-primary">
-                                        {{ callout.call_to_action_name }}
-                                    </a>
-                                {% endif %}
+                                
+                                {% capture link1 %}{{ callout.call_to_action_link}}{% endcapture %}
+                                <a href="{{ link1 | relative_url }}" class="button is-primary">
+                                    {{ callout.call_to_action_name }}
+                                </a>
+                                
                             
                             {% endif %}
                         </div>
